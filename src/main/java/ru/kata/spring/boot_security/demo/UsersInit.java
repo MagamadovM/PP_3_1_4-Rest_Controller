@@ -36,17 +36,17 @@ public class UsersInit {
         user2.setRole(roleService.findByName("ROLE_ADMIN"));
         user3.setRole(roleService.findByName("ROLE_USER"));
 
-        user3.setFirstName("Ronaldo");
-        user3.setLastName("Cristiano");
-        user3.setAge(37);
+        user1.setFirstName("Ronaldo");
+        user1.setLastName("Cristiano");
+        user1.setAge(37);
 
-        user1.setFirstName("Fred");
-        user1.setLastName("Pip");
-        user1.setAge(30);
+        user2.setFirstName("Fred");
+        user2.setLastName("Pip");
+        user2.setAge(30);
 
-        user2.setFirstName("Lionel");
-        user2.setLastName("Messi");
-        user2.setAge(34);
+        user3.setFirstName("Lionel");
+        user3.setLastName("Messi");
+        user3.setAge(34);
 
         userService.saveUser(user1);
         userService.saveUser(user2);

@@ -36,7 +36,7 @@ public class User implements UserDetails {
     private String lastName;
 
     @Column(name = "age")
-    private int age;
+    private Integer age;
 
     @Column(name = "email", unique = true, nullable = false)
     private String username;
